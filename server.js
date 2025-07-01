@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
 const port = 3000;
 
 app.listen(process.env.port || port);
-console.log('Web Server is listening at port ' + (process.env.PORT || port));
+console.log('Web Server is listening at port ' + (process.env.port || port));
